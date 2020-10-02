@@ -1,0 +1,261 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --title-light-theme-color: #212121;
+  --title-dark-theme-color: #ffffff;
+  --subtitle-light-theme-color: #757575;
+  --subtitle-dark-theme-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*  ======== HOVER FOCUS ========  */
+
+.navigation-list:hover,
+.navigation-list:focus,
+.header-tel-mail:hover,
+.header-tel-mail:focus,
+.footer-tel-mail:hover,
+.footer-tel-mail:focus {
+  color: var(--accent-color);
+}
+
+/*  ======== END HOVER FOCUS ========  */
+
+/*  ======== HEADER ========  */
+
+.header {
+  background: #ffffff;
+}
+
+.address {
+  font-style: normal;
+  color: var(--title-light-theme-color);
+}
+
+.logo-style {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  color: #2196f3;
+}
+.logo-darkside {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  color: black;
+}
+
+.logo-whiteside {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  color: white;
+}
+
+.navigation-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--title-light-theme-color);
+}
+
+.header-tel-mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--subtitle-light-theme-color);
+}
+
+.order-sevies-container {
+  background: #2f303a;
+}
+
+/*  ======== END HEADER ========  */
+
+/*  ======== order servies container ========  */
+
+.order-servies-heading {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--title-dark-theme-color);
+}
+
+.order-servies-button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  left: 700px;
+  top: 430px;
+
+  color: #ffffff;
+  background: #2196f3;
+}
+
+/*  ======== END order servies container ========  */
+
+/*  ======== what do we do container ========  */
+
+.dowedo-container {
+  background: #e5e5e5;
+}
+
+.dowedo-list {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  color: var(--title-light-theme-color);
+}
+
+.dowedo-description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--subtitle-light-theme-color);
+}
+
+.dowedo-pics-heading {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+
+  color: var(--title-light-theme-color);
+}
+
+/*  ======== OUR TEAM container ========  */
+
+.ourteam-container {
+  background: #f5f4fa;
+}
+
+.ourteam-heading {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  color: var(--title-light-theme-color);
+}
+
+.ourteam-list-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  color: var(--title-light-theme-color);
+}
+
+.ourteam-list-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  color: var(--subtitle-light-theme-color);
+}
+
+/*  ======== END OUR TEAM container ========  */
+
+/*  ======== PORTFOLIO container ========  */
+
+.button-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  /* Rectangle 10 */
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+}
+.button-list:hover,
+.button-list:focus {
+  color: white;
+  background-color: #2196f3;
+}
+
+.portfolio-container {
+  background: #e5e5e5;
+}
+
+.portfolio-heading {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--title-light-theme-color);
+}
+.portfolio-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+
+  color: var(--subtitle-light-theme-color);
+}
+
+/*  ======== END PORTFOLIO container ========  */
+
+/*  ======== FOOTER container ========  */
+
+.footer-container {
+  background: #2f303a;
+}
+
+.footer-adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: var(--title-dark-theme-color);
+}
+
+.footer-tel-mail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  color: var(--subtitle-dark-theme-color);
+}
+
+/*  ======== END FOOTER container ========  */
